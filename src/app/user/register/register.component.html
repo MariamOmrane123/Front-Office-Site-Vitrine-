@@ -1,0 +1,49 @@
+
+    <div class="breadcrumb">
+       <a href="index.html">Home</a> » <a href="#">Account</a> » <a href="register.html">Register</a> </div>
+    <!--Breadcrumb Part End-->
+    <h1>Register Account</h1>
+    <form enctype="multipart/form-data" (ngSubmit)="onSubmit()" method="POST">
+      <h2>Your Personal Details</h2>
+      <div class="content">
+        <table class="form">
+          <tbody>
+            <tr>
+              <td><span class="required">*</span> Last Name:</td>
+              <td><input class="large-field" type="text" [(ngModel)]="utilisateur.nom" name="nom"></td>
+            </tr>
+            <tr>
+                <td><span class="required">*</span> First Name:</td>
+                <td><input class="large-field" [(ngModel)]="utilisateur.prenom" name="prenom" type="text"></td>
+              </tr>
+            <tr>
+              <td><span class="required">*</span> E-Mail:</td>
+              <td><input class="large-field" type="text" [(ngModel)]="utilisateur.email" name="email"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2>Your Password</h2>
+      <div class="content">
+        <table class="form">
+          <tbody>
+            <tr>
+              <td><span class="required">*</span> Password:</td>
+              <td><input class="large-field" type="password" [(ngModel)]="utilisateur.password" name="password"></td>
+            </tr>
+            <tr>
+              <td><span class="required">*</span> Password Confirm:</td>
+              <td><input class="large-field" type="password" value="" name="confirm"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="buttons">
+        <div class="left">
+          <p>
+            <input type="checkbox" value="1" name="agree">
+            &nbsp; I have read and agree to the <a alt="Privacy Policy" href="#" class="colorbox cboxElement"><b>Privacy Policy</b></a> </p>
+          <input type="submit" class="button" value="Continue">
+        </div>
+      </div>
+    </form>
