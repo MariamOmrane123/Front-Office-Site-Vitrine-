@@ -1,4 +1,4 @@
-# Front end of Ecommerce website
+# Front office of Ecommerce website
 # Objective:
     1/Products Display
     2/Buy product
