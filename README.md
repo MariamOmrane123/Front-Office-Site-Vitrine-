@@ -1,3 +1,10 @@
+# Front end of Ecommerce website
+# Objective:
+    1/Products Display
+    2/Buy product
+    3/Decrease the quantity of the product
+    4/Inscription
+    5/Authentification
 # SiteVitrineAngularProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
